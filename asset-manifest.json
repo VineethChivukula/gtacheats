@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/gtacheats/static/css/main.153a8629.css",
+    "main.js": "/gtacheats/static/js/main.9cfc273a.js",
+    "static/media/logo-dark.png": "/gtacheats/static/media/logo-dark.e9dce5a3104afce8a75b.png",
+    "static/media/gtavc.png": "/gtacheats/static/media/gtavc.77be096cbfc6f7e0f7b4.png",
+    "static/media/gtasa.png": "/gtacheats/static/media/gtasa.03447081728efc8e9855.png",
+    "static/media/gta3.png": "/gtacheats/static/media/gta3.21a2ecceb46ab1c9eaec.png",
+    "static/media/logo-light.png": "/gtacheats/static/media/logo-light.a36e482e7e8036bda635.png",
+    "static/media/rockstarlogo.png": "/gtacheats/static/media/rockstarlogo.70e3428c3e55b68967ee.png",
+    "index.html": "/gtacheats/index.html",
+    "main.153a8629.css.map": "/gtacheats/static/css/main.153a8629.css.map",
+    "main.9cfc273a.js.map": "/gtacheats/static/js/main.9cfc273a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.153a8629.css",
+    "static/js/main.9cfc273a.js"
+  ]
+}
