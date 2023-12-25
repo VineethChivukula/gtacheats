@@ -1,0 +1,47 @@
+/* Set the width of the table to 70% and fix the table layout */
+table {
+    width: 70%;
+    table-layout: fixed;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+
+/* Set the width of table cells to 45% and add border */
+th,
+td {
+    width: 45%;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+
+/* Style the table header */
+th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+/* Add padding to table cells */
+th,
+td {
+    padding: 10px 15px;
+}
+
+/* Set the text color of table cells */
+td {
+    color: whitesmoke;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    /* Set the width of the table to 100% */
+    table {
+        width: 100%;
+    }
+
+    /* Set the width of table cells to auto */
+    th,
+    td {
+        width: auto;
+    }
+}

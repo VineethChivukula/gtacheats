@@ -1,0 +1,42 @@
+/* Styles for the navbar */
+.navbar {
+    background-color: #1e293e;
+    padding: 1rem;
+}
+
+/* Styles for the navigation links */
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+/* Styles for each navigation link item */
+.nav-links li {
+    margin-right: 1rem;
+}
+
+/* Styles for the navigation link anchor tags */
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Styles for the heading within navigation link items */
+.nav-links li h1 {
+    color: #ffffff;
+}
+
+/* Styles for the rock and vinny classes */
+.rock {
+    width: 70px;
+    height: auto;
+}
+
+.vinny {
+    width: 45px;
+    height: auto;
+    margin-top: 12px;
+}

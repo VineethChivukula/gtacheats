@@ -1,0 +1,11 @@
+/* This class sets the width of the element to 110px */
+.gta-logo {
+    width: 110px;
+}
+
+/* This class sets the border radius, background color, and margin top of the element */
+.butt {
+    border-radius: 20%;
+    background-color: #202634;
+    margin-top: 12px;
+}

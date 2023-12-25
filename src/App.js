@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+// Importing React and useState from the react package
+import React, { useState } from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+// Importing the CSS file for the App component
+import "./App.css";
+
+// Importing components
+import Navbar from "./components/Navbar";
+import Button from "./components/Button";
+
+// Defining the App component
+const App = () => {
+    // Defining the state for the dark mode
+    const [darkMode, setDarkMode] = useState(false);
+
+    // Function to toggle the dark mode
+    const toggleDarkMode = () => {
+        setDarkMode(!darkMode);
+    };
+
+    // Returning the JSX element
+    return (
+        <div
+            className="App"
+            style={
+                darkMode
+                    ? {
+                          backgroundColor: "#fff",
+                          color: "#fff",
+                          transition: "background-color 0.3s ease",
+                      }
+                    : {
+                          transition: "background-color 0.3s ease",
+                      }
+            }
         >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+            <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+            <Button darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+        </div>
+    );
+};
 
+// Exporting the App component as the default export
 export default App;
